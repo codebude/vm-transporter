@@ -34,7 +34,7 @@ Import-Package: com.sap.esb.application.services.cxf.interceptor,com.s
 Origin-Bundle-Name: SapPo_to_SapCpi_ValueMappingTransfer
 SAP-RuntimeProfile: iflmap
 Bundle-Name: SapPo_to_SapCpi_ValueMappingTransfer
-Bundle-Version: 1.0.1
+Bundle-Version: 1.0.2
 SAP-NodeType: IFLMAP
 SAP-BundleType: IntegrationFlow
 Import-Service: com.sap.esb.webservice.audit.log.AuditLogger,com.sap.e

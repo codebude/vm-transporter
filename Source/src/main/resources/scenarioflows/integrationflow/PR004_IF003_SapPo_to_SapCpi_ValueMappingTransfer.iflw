@@ -273,7 +273,7 @@
                 </ifl:property>
                 <ifl:property>
                     <key>httpAddressWithoutQuery</key>
-                    <value>https://rcg-integration-suite.it-cpi001.cfapps.eu10.hana.ondemand.com/api/v1/ValueMappingDesigntimeArtifacts</value>
+                    <value>https://{{CPI_HOSTNAME}}/api/v1/ValueMappingDesigntimeArtifacts</value>
                 </ifl:property>
             </bpmn2:extensionElements>
         </bpmn2:messageFlow>
@@ -429,7 +429,7 @@
                 </ifl:property>
                 <ifl:property>
                     <key>authentication</key>
-                    <value>Basic</value>
+                    <value>{{SAPPI_AUTHMODE}}</value>
                 </ifl:property>
                 <ifl:property>
                     <key>PrivateKeyAliasSigning</key>
@@ -633,7 +633,7 @@
                 </ifl:property>
                 <ifl:property>
                     <key>authentication</key>
-                    <value>Basic</value>
+                    <value>{{SAPPI_AUTHMODE}}</value>
                 </ifl:property>
                 <ifl:property>
                     <key>PrivateKeyAliasSigning</key>
@@ -1044,7 +1044,7 @@
         </bpmn2:callActivity>
         <bpmn2:startEvent id="StartEvent_4" name="Start Once">
             <bpmn2:outgoing>SequenceFlow_7</bpmn2:outgoing>
-            <bpmn2:timerEventDefinition id="TimerEventDefinition_27608">
+            <bpmn2:timerEventDefinition id="TimerEventDefinition_160621">
                 <bpmn2:extensionElements>
                     <ifl:property>
                         <key>scheduleKey</key>
