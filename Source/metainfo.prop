@@ -1,0 +1,9 @@
+#Store metainfo properties
+#Tue Apr 13 06:53:25 UTC 2021
+nodeType=IFLMAP
+OriginBundleName=SapPo_to_SapCpi_ValueMappingTransfer
+OriginBundleSymbolicName=SapPo_to_SapCpi_ValueMappingTransfer
+productProfile=iflmap
+description=This iflow transfers value mappings from SAP PO to SAP CPI.
+source=SapPo
+target=SapCpi
